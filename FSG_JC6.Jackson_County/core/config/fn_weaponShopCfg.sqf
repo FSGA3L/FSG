@@ -736,35 +736,118 @@ switch(_shop) do
                         {
                                 ["Rangers Shop",
                                         [
-											["hgun_PDW2000_F",nil,45000],
-											["30Rnd_9x21_Mag",nil,200],
-											["SMA_SAR21MMS_F",nil,60000],
-											["SMA_30Rnd_556x45_M855A1",nil,200],
-											["hlc_rifle_aek971",nil,65000],
-											["hlc_30Rnd_545x39_B_AK",nil,200],
-											["hlc_rifle_aks74u_MTK",nil,68000],
-											["hlc_30Rnd_545x39_B_AK",nil,200],
-											["hlc_rifle_aks74_MTK",nil,68000],
-											["hlc_30Rnd_545x39_B_AK",nil,200],
-											["RH_tec9",nil,200],
-											["RH_32Rnd_9x19_tec",nil,200],
-											["Hatchet",nil,80000],
-											["Katana_swing",nil,200],
-											["RH_g18",nil,80000],
-											["RH_fnp45t",nil,6000],
-											["RH_15Rnd_45cal_fnp",nil,200],
-											["RH_m1911",nil,6000],
-											["RH_7Rnd_45cal_m1911",nil,200],
-											["hlc_rifle_RK62",nil,67000],
-											["hlc_30Rnd_762x39_b_ak",nil,200],
-											["FHQ_arifle_ACR_tan",nil,68000],
-											["FHQ_rem_30Rnd_680x43_ACR",nil,200],
-											["optic_ACO_grn",nil,200],
-											["optic_AMS",nil,200],
-											["optic_Arco_blk_F",nil,200],
-											["SMA_ELCAN_SPECTER_GREEN_ARDRDS",nil,200],
-											["hlc_optic_kobra",nil,200],
-											["RH_Delft",nil,200]
+											["TRYK_U_B_ACU",nil,50],
+											["V_PlateCarrier2_blk",nil,50],
+											["TRYK_B_Kitbag_blk",nil,50],
+											["H_HelmetSpecB_blk",nil,50],
+											["G_Tactical_Black",nil,50],
+											["NVGogglesB_gry_F",nil,50],
+											["hlc_rifle_awcovert_BL",nil,50000],
+											["hlc_5rnd_300WM_FMJ_AWM",nil,50],
+											["RH_leu_mk4",nil,50],
+											["RH_M4_moe_b",nil,50000],
+											["RH_60Rnd_556x45_Mk262",nil,50],
+											["RH_eotech553",nil,50],
+											["RHARD_M4DDR_F",nil,50000],
+											["30Rnd_556x45_Stanag",nil,50],
+											["RH_eotech553mag",nil,50],
+											["RH_leu_mk4",nil,50],
+											["RH_barska_rds",nil,50]
+										]
+                                ];
+                        };
+                };
+        };
+		
+		case "free":
+        {
+                switch(true) do
+                {
+                        case (playerSide != civilian): {"You are not a civilian!"};
+                        case (!license_civ_free): {"You are not apart of the Merc!"};
+                        default
+                        {
+                                ["Freelancer Shop",
+                                        [
+											["TRYK_U_B_BLK",nil,50],
+											["TRYK_V_ArmorVest_Delta",nil,50],
+											["cg_invsbp",nil,50],
+											["Jamie_blackhelmet",nil,50],
+											["NVGoggles_OPFOR",nil,50],
+											
+											["arifle_SPAR_03_blk_F",nil,30000],
+											["20Rnd_762x51_Mag",nil,50],
+											["optic_ams",nil,50],
+											["muzzle_snds_B",nil,50],
+											["bipod_01_F_blk",nil,50],
+											["KPFS_G36A4",nil,30000],
+											["KPFS_30Rnd_556x45_G36",nil,50],
+											["optic_Hamr",nil,50],
+											["KPFS_supressor_g36",nil,50],
+											["KA_UMP45_P",nil,30000],
+											["KA_25Rnd_45ACP_High_Presure_Mag",nil,50],
+											["SMA_AIMPOINT",nil,50],
+											["KA_UMP45_Silencer",nil,50],
+											["KA_UMP45_Flashlight",nil,50],
+											["RH_sbr9",nil,30000],
+											["RH_32Rnd_9mm_HPSB",nil,50],
+											["RH_compM2",nil,50],
+											["muzzle_snds_L",nil,50],
+											["RH_g19",nil,10000],
+											["RH_gemtech9",nil,50],
+											["RH_X2",nil,50],
+											["RH_barska_rds",nil,50]
+										]
+                                ];
+                        };
+                };
+        };
+		
+		case "bean":
+        {
+                switch(true) do
+                {
+                        case (playerSide != civilian): {"You are not a civilian!"};
+                        case (!license_civ_bean): {"You are not apart of the Beans!"};
+                        default
+                        {
+                                ["Beans Shop",
+                                        [
+											["TRYK_U_B_BLKBLK_CombatUniform",nil,50],
+                                            ["TRYK_V_ArmorVest_Delta2",nil,50],
+                                            ["AM_PoliceBelt",nil,50],
+                                            ["TRYK_H_Booniehat_JSDF",nil,50],
+                                            ["Mask_M40_OD",nil,50],
+                                            ["hlc_rifle_M14_Bipod_Rail",nil,50],
+                                            ["NVGogglesB_blk_F",nil,50],
+
+
+                                            ["RH_M4A6",nil,30000],
+                                            ["RH_30Rnd_68x43_FMJ",nil,100],
+                                            ["SMA_AAC_MPW_12_Black",nil,100],
+                                            ["SMA_30Rnd_762x35_BLK_EPR",nil,100],
+                                            ["SMA_HK416CUSTOMCQBafgODP",nil,50000],
+                                            ["SMA_30Rnd_556x45_M855A1",nil,200],
+                                            ["BH_SE14r",nil,10000],
+                                            ["BH_SE14r_Mag",nil,100],
+                                            ["hlc_rifle_M14_Bipod_Rail",nil,200],
+                                            ["hlc_20Rnd_762x51_B_M14",nil,200],
+                                            ["RH_M4A6",nil,30000],
+                                            ["Katana_swing",nil,20000],
+                                            ["RH_30Rnd_68x43_FMJ",nil,200],
+                                            ["RH_fnp45t",nil,6000],
+                                            ["RH_15Rnd_45cal_fnp",nil,200],
+                                            ["RH_m1911",nil,6000],
+                                            ["RH_7Rnd_45cal_m1911",nil,200],
+                                            ["RH_compM2l",nil,200],
+                                            ["RH_ta31rmr_2D",nil,200],
+                                            ["RH_leu_mk4",nil,200],
+                                            ["SMA_BARSKA",nil,200],
+                                            ["optic_DMS",nil,200],
+                                            ["RH_pdwsd",nil,200],
+                                            ["RH_m110sd",nil,200],
+                                            ["SMA_supp2b_556",nil,200],
+                                            ["optic_AMS",nil,200]
 										]
                                 ];
                         };
