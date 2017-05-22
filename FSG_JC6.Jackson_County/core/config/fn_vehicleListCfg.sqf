@@ -479,6 +479,7 @@ switch (_shop) do
 		[
 			["red_camaro_12_p_u_black",10],
 			["red_panamera_10_p_u_black",10],
+			["LandRoverUC_01",10],
 			["EvoX_Marshals",10],
 			["A3L_TaurusFPBLBCSO",10],
 			["A3L_CVPIFPBCSO",10],
