@@ -45,6 +45,10 @@ switch (_filter) do
 		_ret set[count _ret,["TCG_PDDTC","Detective Uniform",10]];
 		_ret set[count _ret,["Swat_uni1","SWAT Uniform",10]];
 		_ret set[count _ret,["crt_uniform","CERT Uniform",10]];
+		_ret set[count _ret,["A3L_HPCPT","IA Cpt Uniform",10]];
+		_ret set[count _ret,["police_uni2","IA Command Uniform",10]];
+		_ret set[count _ret,["A3L_HPLT","IA Lt Uniform",10]];
+		_ret set[count _ret,["A3L_HPOFC","IA Uniform",10]];
 		_ret set[count _ret,["Eden_Swat_Officer","FBI Uniform",10]];
 		_ret set[count _ret,["U_B_HeliPilotCoveralls","Pilot Uniform V2",10]];
 		_ret set[count _ret,["LS_Marshal_Jacket","Marshal Jacket",10]];
