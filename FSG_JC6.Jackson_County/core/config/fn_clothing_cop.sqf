@@ -49,6 +49,8 @@ switch (_filter) do
 		_ret set[count _ret,["U_B_HeliPilotCoveralls","Pilot Uniform V2",10]];
 		_ret set[count _ret,["LS_Marshal_Jacket","Marshal Jacket",10]];
 		_ret set[count _ret,["LS_Marshal_Jacket3","Marshal Jacket",10]];
+		_ret set[count _ret,["RF_WING_3","Air Divition Command",10]];
+                _ret set[count _ret,["RF_ASU_2","Air Divition",10]];
 	};
 	
 	case 1:
