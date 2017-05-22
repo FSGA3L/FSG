@@ -45,8 +45,6 @@ switch (_type) do
 	case "gs9": {0};
 	case "ocean": {0};
 	case "cade": {0};
-	case "bean": {0};
-	case "free": {0};
 	case "lsmo": {0};
 	case "supporter50": {0};
 	case "supporter100": {0};

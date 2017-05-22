@@ -83,6 +83,17 @@ switch (_code) do
 			};
 		};
 	};
+
+    //PANIC BUTTON (Shift + 8)
+	case 19:
+	{
+		if(_shift) then {_handled = true;};
+		if(_shift && playerSide == west && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget in [civilian,independent]) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
+		{
+			[] call life_fnc_restrainAction;
+		};
+	};
+	
 	
 	//Interaction key (default is Left Windows, can be mapped via Controls -> Custom -> User Action 10)
 	case _interactionKey:
@@ -99,12 +110,12 @@ switch (_code) do
 	};
 	
 	//Restraining (Shift + R)
-	case 19:
+	case 9:
 	{
 		if(_shift) then {_handled = true;};
-		if(_shift && playerSide == west && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget in [civilian,independent]) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
+		if(_shift && playerSide == west) then
 		{
-			[] call life_fnc_restrainAction;
+			[] call life_fnc_panicButton;
 		};
 	};
 	

@@ -1,7 +1,6 @@
 private["_sleeptime"];
 _sleeptime = 112;
 if(playerSide != west) exitWith {}; 
-if(!([false,"panicbutton",1] call life_fnc_handleInv)) exitWith {hint "You cannot do that without a panic button in your inventory.";}; 
 //Stops people pressing the key binding while being took hostage.
 if((player getVariable "restrained")) exitWith {}; 
 if((player getVariable "tied")) exitWith {};

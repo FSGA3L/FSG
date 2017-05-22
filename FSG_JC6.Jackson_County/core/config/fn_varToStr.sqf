@@ -128,8 +128,6 @@ switch (_var) do
 	case "license_civ_outlaws": {(localize "STR_License_outlaws")};
 	case "license_civ_disney": {(localize "STR_License_disney")};
 	case "license_civ_narco": {(localize "STR_License_narco")};
-	case "license_civ_bean": {(localize "STR_License_bean")};
-	case "license_civ_free": {(localize "STR_License_free")};
 	case "license_civ_LSMO": {(localize "STR_License_LSMO")};
 	case "license_civ_Supporter50": {(localize "STR_License_Supporter50")};
 	case "license_civ_Supporter100": {(localize "STR_License_Supporter100")};

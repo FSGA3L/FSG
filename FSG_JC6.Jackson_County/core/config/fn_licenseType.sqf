@@ -50,8 +50,6 @@ switch (_mode) do
 			case "gs9": {_var = "license_civ_gs9"};
 			case "ocean": {_var = "license_civ_ocean"};
 			case "cade": {_var = "license_civ_cadenunley"};
-			case "bean": {_var = "license_civ_bean"};
-			case "free": {_var = "license_civ_free"};
 			case "lsmo": {_var = "license_civ_lsmo"};
 			case "supporter50": {_var = "license_civ_supporter50"};
 			case "supporter100": {_var = "license_civ_supporter100"};
@@ -96,7 +94,6 @@ switch (_mode) do
 			case "license_civ_outlaws": {_var = "outlaws"};
 			case "license_civ_disney": {_var = "disney"};
 			case "license_civ_narco": {_var = "narco"};
-			case "license_civ_bean: {_var = "bean"};
 			case "license_civ_lsmo": {_var = "lsmo"};
 			case "license_civ_supporter50": {_var = "supporter50"};
 			case "license_civ_supporter100": {_var = "supporter100"};
