@@ -1,8 +1,7 @@
 private["_sleeptime"];
 _sleeptime = 112;
-//Pre-Checks
 if(playerSide != west) exitWith {}; 
-//if(!([false,"panicbutton",1] call life_fnc_handleInv)) exitWith {hint "You cannot do that without a panic button in your inventory.";}; 
+if(!([false,"panicbutton",1] call life_fnc_handleInv)) exitWith {hint "You cannot do that without a panic button in your inventory.";}; 
 //Stops people pressing the key binding while being took hostage.
 if((player getVariable "restrained")) exitWith {}; 
 if((player getVariable "tied")) exitWith {};
@@ -20,5 +19,8 @@ _marker = createMarker ["MarkerPanicButton", _Pos];
 [[0,format["DISPATCH: PANIC BUTTON USED BY %1",name player]],"life_fnc_broadcast",west,false] spawn life_fnc_MP;
 [[0,format["DISPATCH: PANIC BUTTON USED BY %1",name player]],"life_fnc_broadcast",west,false] spawn life_fnc_MP;
 [[0,format["DISPATCH: PANIC BUTTON USED BY %1",name player]],"life_fnc_broadcast",west,false] spawn life_fnc_MP;
+["PANIC BUTTON PUSHED",10,"blue"] call A3L_Fnc_Msg;
+["PANIC BUTTON PUSHED",10,"blue"] call A3L_Fnc_Msg;
+
 sleep _sleeptime;
 deleteMarker "MarkerPanicButton"; 

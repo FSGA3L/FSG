@@ -47,7 +47,15 @@ switch (true) do
 			[] spawn life_fnc_useCigarette;	
 		};
 	};
-
+	
+	case (_item == "panicbutton"):
+	{
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_panicButton;	
+		};
+	};
+	
 	case (_item == "zoobeer"):
 	{
 		if(([false,_item,1] call life_fnc_handleInv)) then

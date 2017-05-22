@@ -199,7 +199,8 @@ life_inv_items =
 	"life_inv_tobacco",
 	"life_inv_cigarette",
 	"life_inv_kidney",
-	"life_inv_raxsrum"
+	"life_inv_raxsrum",
+	"life_inv_panicbutton"
 ];
 
 //Setup variable inv vars.
