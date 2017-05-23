@@ -51866,10 +51866,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-<<<<<<< HEAD
 				init="this enableSimulation false;  this allowDamage false; this addAction[""Officer Item Shop"",life_fnc_virt_menu,""cop""];   this addAction[""Cop Clothing Shop"",life_fnc_clothingMenu,""cop""]; this addAction[""Detective Clothing Shop"",life_fnc_clothingMenu,""brucecop""]; this addAction[""Police General Shop"",life_fnc_weaponShopMenu,""cop_basic""];  this addAction[""Cadet Shop"",life_fnc_weaponShopMenu,""cop_cadet""]; this addAction[""Officer Shop"",life_fnc_weaponShopMenu,""cop_officer""];  this addAction[""Senior Officer Shop"",life_fnc_weaponShopMenu,""cop_seniorofc""];  this addAction[""Corporal Shop"",life_fnc_weaponShopMenu,""cop_corp""]; this addAction[""Sergeant Shop"",life_fnc_weaponShopMenu,""cop_sgt""];  this addAction[""Staff Sergeant Shop"",life_fnc_weaponShopMenu,""cop_csgt""]; this addAction[""Department Command Shop"",life_fnc_weaponShopMenu,""cop_deptcommand""];  this addAction[""State Command Shop"",life_fnc_weaponShopMenu,""cop_statecommand""]; this addAction[""SERT And CERT Shop"",life_fnc_weaponShopMenu,""cop_sertcert""]; this addAction[""Marshal Shop"",life_fnc_weaponShopMenu,""cop_Marshal""]; this addAction[format[""%1 ($%2)"",[""license_cop_air""] call life_fnc_varToStr,[([""cair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cair"",0,false,false,"""",' !license_cop_air && playerSide == west ']; this addAction[format[""%1 ($%2)"",[""license_cop_cg""] call life_fnc_varToStr,[([""cg""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cg"",0,false,false,"""",' !license_cop_cg && playerSide == west ']; this addAction[""Trade suitcase"",{ if (side player == west) then { {if (typeOf _x == ""Land_Suitcase_F"") then {[] call A3L_Fnc_SellSuitcase; };  } foreach (attachedObjects player); }; }];";
-=======
->>>>>>> 0e5b87e33905d4addebdb3ef0c18787fdc359873
 			};
 			id=5307;
 			type="xcam_Stone_big_F";
