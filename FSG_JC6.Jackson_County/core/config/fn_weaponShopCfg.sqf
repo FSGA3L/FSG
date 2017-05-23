@@ -406,52 +406,6 @@ switch(_shop) do
                 };
         };	    
 
-        case "cop_marshals":
-        {
-                switch(true) do
-                {
-                        case (playerSide != west): {"You are not a cop!"};
-                        case (__GETC__(life_coplevel) < 7): {"You are not a Marshal"};
-                        default
-                        {
-                                ["Only Marshal Shop",
-                                        [
-												["FHQ_srifle_M2010_BLK",nil,500],
-												["FHQ_rem_5Rnd_300Win_M2010",nil,100],
-												["RH_M4A6",nil,500],
-												["RH_30Rnd_68x43_FMJ",nil,100],
-												["hlc_rifle_bcmjack",nil,500],
-												["hlc_30rnd_556x45_EPR",nil,100],
-												["hlc_50rnd_556x45_EPR",nil,100],
-												["hlc_rifle_Bushmaster300",nil,500],
-												["29rnd_300BLK_STANAG",nil,100],
-												["hlc_rifle_samr2",nil,500],
-												["hlc_30rnd_556x45_EPR",nil,100],
-												["hlc_smg_mp510",nil,500],
-												["hlc_30Rnd_10mm_B_MP5",nil,50],
-												["RH_M16A6",nil,50],
-												["RH_M27IAR",nil,50],
-												["RH_60Rnd_556x45_M855A1",nil,50],
-												["RH_30Rnd_68x43_FMJ",nil,50],
-												["optic_DMS",nil,1],
-												["RH_ta648",nil,1],
-												["optic_AMS",nil,1],
-												["RH_barska_rds",nil,1],
-												["KA_M7A3","Teargas",500],
-												["optic_Hamr",nil,1],
-												["RH_ta31rmr_2D",nil,1],
-												["SMA_ELCAN_SPECTER_GREEN_RDS",nil,250],
-												["SMA_SFFL_BLK",nil,1],
-												["RH_qdss_nt4",nil,1],
-												["SMA_supp2b_556",nil,1],
-												["muzzle_snds_B",nil,1],
-												["hlc_muzzle_556NATO_KAC",nil,1]
-                                        ]
-                                ];
-                        };
-                };
-        };
-
         case "rebel":
         {
                 switch(true) do
