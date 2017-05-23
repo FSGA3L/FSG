@@ -253,6 +253,11 @@ switch(_shop) do
 												["optic_ACO_grn",nil,1],
 												["optic_Arco_blk_F",nil,1],
 												["optic_AMS",nil,1]
+											        ["RH_M16A6",nil,50],											["RH_M16A6",nil,50],
+												["RH_M27IAR",nil,50],
+												["RH_60Rnd_556x45_M855A1",nil,50],
+												["RH_30Rnd_68x43_FMJ",nil,50],
+												["hlc_muzzle_556NATO_KAC",nil,1]
                                         ]
                                 ];
                         };
