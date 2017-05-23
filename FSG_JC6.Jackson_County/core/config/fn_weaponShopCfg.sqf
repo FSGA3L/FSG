@@ -513,6 +513,10 @@ switch(_shop) do
                         {
                                 ["LSMO Weapon Shop",
                                         [
+											["RH_fn57"]
+											["RH_20Rnd_57x28_FN"]
+											["RH_m9"]
+											["RH_15Rnd_9x19_M9"]								
 											["RH_M4_ris_m",nil,15],
 											["RH_30Rnd_556x45_M855A1",nil,15],
 											["RH_barska_rds",nil,15],
