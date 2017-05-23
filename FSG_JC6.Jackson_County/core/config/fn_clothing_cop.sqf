@@ -55,6 +55,8 @@ switch (_filter) do
 		_ret set[count _ret,["U_B_HeliPilotCoveralls","Pilot Uniform V2",10]];
 		_ret set[count _ret,["RF_WING_3","Air Divition Command",10]];
                 _ret set[count _ret,["RF_ASU_2","Air Divition",10]];
+		_ret set[count _ret,["LS_Marshal_Jacket","Marshal Jacket",10]];
+ 		_ret set[count _ret,["LS_Marshal_Jacket3","Marshal Jacket",10]];
 	};
 	
 	case 1:
@@ -74,6 +76,8 @@ switch (_filter) do
 		_ret set[count _ret,["jamie_pcapblack","Black Cap",50]];
 		_ret set[count _ret,["jamie_pcapblue","Blue Cap",50]];
 		_ret set[count _ret,["jamie_blackhelmet","CERT Helmet",50]];
+		_ret set[count _ret,["LSMS_cap_blue","Marshal cap",50]];
+ 		_ret set[count _ret,["LSMS_cap_blk","Marshal cap",50]];
 	};
 	
 	case 2:
@@ -123,6 +127,7 @@ switch (_filter) do
 		_ret set[count _ret,["SWATvest1","SWAT Vest 1",10]];
 		_ret set[count _ret,["TCG_swatvest1","SWAT Vest 2",10]];
 		_ret set[count _ret,["DAG_FBI_BLK","FBI Vest",10]];
+		_ret set[count _ret,["TRYK_V_ArmorVest_Delta","Marshal Vest",50]];
 	};
 	
 	case 4:
