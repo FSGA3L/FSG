@@ -565,20 +565,12 @@ switch (_shop) do
 		_return =
 		[
 			["red_swat_08_p_swat",50],
-			["red_taurus_10_p_sert",50],
-			["red_taurus_10_p_u_sert",50],
-			["red_charger_15_p_sert",50],
-			["red_charger_15_p_u_sert",50],
-			["TahoePD_03",50],
-			["cg_h2_sert",50],
-			["cg_evoSERT1",50],
 			["EvoX_SWAT",50],
 			["F150_SWAT",50],
 			["MustangPD_03",50],
 			["LandRoverPD_03",50],
 			["GTR_SWAT",50],
 			["SWATBearcat_01",50],
-			["BMWX5PD_04",50],
 			["TahoePD_03",50]
 			
 
