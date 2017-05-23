@@ -33,6 +33,7 @@ switch (_filter) do
 		_ret set[count _ret,["A3L_CCPL","DOC Corporal",10]];
 		_ret set[count _ret,["A3L_COFC","DOC Officer",10]];
 		_ret set[count _ret,["cadet_uni","DOC Cadet",10]];
+		_ret set[count _ret,["tyler_fsg_pd_officer","Police Uniform",10]];
 		_ret set[count _ret,["Eden_Patrol_Sgt","Speical Major",10]];
 		_ret set[count _ret,["Eden_Traffic_Cpt","Speical Captain",10]];
 		_ret set[count _ret,["Eden_Traffic_Cpl","Speical Lieutenant",10]];
@@ -45,10 +46,17 @@ switch (_filter) do
 		_ret set[count _ret,["TCG_PDDTC","Detective Uniform",10]];
 		_ret set[count _ret,["Swat_uni1","SWAT Uniform",10]];
 		_ret set[count _ret,["crt_uniform","CERT Uniform",10]];
+		_ret set[count _ret,["A3L_HPCPT","IA Cpt Uniform",10]];
+		_ret set[count _ret,["sheriff_uni2","IA Command Uniform",10]];
+		_ret set[count _ret,["A3L_HPLT","IA Lt Uniform",10]];
+		_ret set[count _ret,["A3L_HPOFC","IA Uniform",10]];
+	        _ret set[count _ret,["police_uni2","IA Uniform 2",10]];
 		_ret set[count _ret,["Eden_Swat_Officer","FBI Uniform",10]];
 		_ret set[count _ret,["U_B_HeliPilotCoveralls","Pilot Uniform V2",10]];
 		_ret set[count _ret,["LS_Marshal_Jacket","Marshal Jacket",10]];
 		_ret set[count _ret,["LS_Marshal_Jacket3","Marshal Jacket",10]];
+		_ret set[count _ret,["RF_WING_3","Air Divition Command",10]];
+                _ret set[count _ret,["RF_ASU_2","Air Divition",10]];
 	};
 	
 	case 1:
@@ -65,6 +73,8 @@ switch (_filter) do
 		_ret set[count _ret,["wing_helmet","Pilot Helmet",50]];
 		_ret set[count _ret,["A3L_sargehat","Cadet Hat",50]];
 		_ret set[count _ret,["CG_sert_H3","FBI Helmet",50]];
+		_ret set[count _ret,["jamie_pcapblack","Black Cap",50]];
+		_ret set[count _ret,["jamie_pcapblue","Blue Cap",50]];
 		_ret set[count _ret,["jamie_blackhelmet","CERT Helmet",50]];
 		_ret set[count _ret,["LSMS_cap_blue","Marshal cap",50]];
 		_ret set[count _ret,["LSMS_cap_blk","Marshal cap",50]];

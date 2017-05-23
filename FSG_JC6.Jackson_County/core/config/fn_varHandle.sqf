@@ -99,6 +99,7 @@ switch (_mode) do
 			case "BarGate": {"life_inv_BarGate"};
 			case "zoobeer": {"life_inv_zoobeer"}; // Duff Beer
 			case "Rax's Rum": {"life_inv_raxsrum"};
+			case "Panic Button": {"life_inv_panicbutton"};
 		};
 	};
 	
@@ -189,6 +190,7 @@ switch (_mode) do
 			case "life_inv_BarGate": {"BarGate"};
 			case "life_inv_cigarette": {"cigarette"};
 			case "life_inv_raxsrum": {"Rax's Rum"};
+			case "life_inv_panicbutton": {"Panic Button"};
 		};
 	};
 };

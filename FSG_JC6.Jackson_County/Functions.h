@@ -307,7 +307,7 @@ class Life_Client_Core
 		file = "core\cop";
 		class seizeObjects {};
 		class seizeClient {};
-		class callBackup {};
+		class panicButton {};
 		class copMarkers {};
 		class copLights {};
 		class vehInvSearch {};
