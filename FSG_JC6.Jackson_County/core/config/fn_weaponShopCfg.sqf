@@ -731,6 +731,21 @@ switch(_shop) do
 											["optic_Arco_blk_F",nil,200],
 											["SMA_ELCAN_SPECTER_GREEN_ARDRDS",nil,200],
 											["hlc_optic_kobra",nil,200],
+											["AN94_MTK83",nil,15000],
+											["KA_30Rnd_545x39_7N24_AP",nil,200],
+											["RH_barska_rds",nil,10],
+											["hlc_rifle_awcovert_BL",nil,55000],
+											["hlc_5rnd_300WM_FMJ_AWM",nil,50],
+											["RH_leu_mk4",nil,50],
+											["RH_M4_moe_b",nil,15000],
+											["RH_60Rnd_556x45_Mk262",nil,50],
+											["RH_eotech553",nil,50],
+											["KA_M98B",nil,55000],
+											["KA_M98B_10Rnd_338_API526_Mag",nil,50],
+											["RH_leu_mk4",nil,50],
+											["RHARD_M4DDR_F",nil,15000],
+											["30Rnd_556x45_Stanag",nil,50],
+											["RH_eotech553mag",nil,50],
 											["RH_Delft",nil,200]
 										]
                                 ];
